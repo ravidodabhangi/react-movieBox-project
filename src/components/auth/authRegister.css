@@ -1,0 +1,110 @@
+#registerSection {
+  width: 90%;
+  height: 100vh;
+  position: relative;
+  margin: 0px auto;
+}
+#registerSection .registerAside {
+  /* border: 5px solid blue; */
+}
+#registerSection .registerAside h1 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: white;
+  margin-top: 10px;
+}
+#registerSection .registerAside h1::first-letter {
+  color: deeppink;
+  font-size: 40px;
+}
+#registerSection .registerAside p {
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+#registerSection .registerAside > form {
+  margin-top: 30px;
+  width: 100%;
+}
+.registerbutton {
+  width: 39%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 30px;
+}
+.registerbutton span {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  word-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+.registerbutton span > a {
+  text-decoration: none;
+  color: blue;
+}
+.registerbutton button {
+  padding: 13px;
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid deeppink;
+  background-color: deeppink;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.formaside {
+  width: 39%;
+  margin: 0px auto;
+  padding: 35px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.413);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.registerdiv {
+  position: relative;
+  width: 100%;
+}
+.registerdiv label {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.registerdiv input {
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  border-radius: 3px;
+  border: 2px solid rgba(128, 128, 128, 0.614);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.registerdiv > span {
+  font-size: 18px;
+  position: absolute;
+  top: 44px;
+  cursor: pointer;
+  right: 10px;
+}

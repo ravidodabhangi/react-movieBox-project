@@ -1,0 +1,47 @@
+#mainHomeSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#mainHomeSection > .mainSectionArticle {
+  width: 100%;
+  height: inherit;
+}
+#mainHomeSection > .mainSectionArticle > figure {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mainHomeSection > .mainSectionArticle > figure > img {
+  width: 100%;
+  height: 100%;
+}
+#mainHomeSection > .mainSectionArticle > .mainhomeaside {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 27%;
+}
+#mainHomeSection > .mainSectionArticle > .mainhomeaside > h1 {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 55px;
+  color: White;
+}
+#mainHomeSection > .mainSectionArticle > .mainhomeaside > h1::first-letter
+{
+    color: deeppink;
+    font-size: 60px;
+}
+#mainHomeSection > .mainSectionArticle > .mainhomeaside > h1 > span {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 55px;
+  color: coral;
+}

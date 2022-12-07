@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#loginSection {
+  position: absolute;
+  top: 50%;
+  transform: translate(120%, -50%);
+  width: 430px;
+  background-color: white;
+  border-radius: 5px;
+  height: auto;
+}
+#loginSection > article {
+  width: 85%;
+  margin: 0px auto;
+  padding: 0px 0px 50px;
+}
+#loginSection > article > header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#loginSection > article > header > span {
+  font-size: 25px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+#loginSection > article > main {
+}

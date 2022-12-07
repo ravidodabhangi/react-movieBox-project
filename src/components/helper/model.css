@@ -1,0 +1,69 @@
+.ModelSection {
+  width: 72%;
+  margin: 0px auto;
+  position: absolute;
+  top: 22%;
+  left: 2%;
+  background-color: #1a242f;
+  height: 77.9vh;
+  overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow: visible;
+}
+.ModelSection > .ModelArticle {
+  width: 100%;
+  height: inherit;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside1 {
+  width: 96%;
+  height: inherit;
+  margin: 0px auto;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.videonot1 {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videonot1 > img {
+  height: 450px;
+  width: 850px;
+  border-radius: 6px;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside1 > video {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside2 > h1 {
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 5%;
+  color: white;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside2 > h1:hover {
+  color: deeppink;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside2 > h2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-size: 50px;
+  cursor: pointer;
+}
+.ModelSection > .ModelArticle > .ModelArticleAside2 > h2:hover {
+  color: deeppink;
+}
+.wentWrong2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
